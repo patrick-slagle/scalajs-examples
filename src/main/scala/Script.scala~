@@ -1,0 +1,15 @@
+import org.scalajs.jquery.jQuery
+
+import scala.scalajs.js._
+
+/**
+  * Created by pslagle12 on 6/21/16.
+  */
+class Script extends JSApp {
+
+  def main(): Unit = {
+    jQuery("validationForm").submit(test)
+  }
+
+  def test = println("submitted")
+}
